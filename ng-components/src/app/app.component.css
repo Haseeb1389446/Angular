@@ -1,0 +1,23 @@
+header {
+    width: 100%;
+    background-color: blue;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a {
+    color: white;
+    padding: 0 20px;
+}
+
+footer {
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: blueviolet;
+}

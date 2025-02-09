@@ -1,0 +1,37 @@
+<form [formGroup]="myForm" (submit)="dataSend()">
+
+    <h1>Insert Data</h1>
+        
+    <input type="text" formControlName="uname" placeholder="Enter Your Name"> <br>
+    <input type="number" formControlName="uage" placeholder="Enter Your Age"> <br> 
+    <input type="email" formControlName="uemail" placeholder="Enter Your Email"> <br>
+    <input type="password" formControlName="upass" placeholder="Enter Your Pass"> <br>
+    <input type="submit">
+        
+</form>
+    
+<br><br>
+
+<h1>Show Data</h1>
+    
+<table border="2">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Password</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (item of users; track $index) {
+            <tr>
+                <td>{{item.uname}}</td>
+                <td>{{item.uage}}</td>
+                <td>{{item.uemail}}</td>
+                <td>{{item.upass}}</td>
+            </tr>
+            }
+    </tbody>
+</table>
+

@@ -1,0 +1,22 @@
+{
+    "users": [
+        {
+            "userId": 1001,
+            "userName": "ali",
+            "userEmail": "ali@gmail.com",
+            "userPass": 52369
+        },
+        {
+            "userId": 1002,
+            "userName": "hamza",
+            "userEmail": "hamza@gmail.com",
+            "userPass": 85247
+        },
+        {
+            "userId": 1003,
+            "userName": "feroz",
+            "userEmail": "feroz@gmail.com",
+            "userPass": 65412
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "product": [
+    {
+      "id": "0bb1",
+      "productName": "HP",
+      "productDesc": "A Laptop",
+      "productPrice": "20000",
+      "productStock": "12"
+    },
+    {
+      "id": "ccd1",
+      "productName": "Lenovo",
+      "productDesc": "A Laptop",
+      "productPrice": "30000",
+      "productStock": "5"
+    },
+    {
+      "id": "2925",
+      "productName": "Dell",
+      "productDesc": "A Laptop",
+      "productPrice": "10000",
+      "productStock": "23"
+    }
+  ]
+}

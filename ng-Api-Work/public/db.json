@@ -20,6 +20,13 @@
       "productDesc": "A Laptop",
       "productPrice": "10000",
       "productStock": "23"
+    },
+    {
+      "productName": "Think Vision",
+      "productDesc": "A Laptop",
+      "productPrice": "150000",
+      "productStock": "2",
+      "id": "8948"
     }
   ]
 }

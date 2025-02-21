@@ -13,4 +13,12 @@ export class ProductService {
   submitData(data:any) {
     return this.http.post(this.url,data);
   }
+
+  getSpecificProduct(id:any){
+    return this.http.get(`${this.url}/${id}`);
+  }
+
+  updateSpecificData(id: any, body: any){
+    return this.http.put(`${this.url}/${id}`,body)
+  }
 }

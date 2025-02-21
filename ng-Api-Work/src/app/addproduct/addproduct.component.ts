@@ -11,10 +11,10 @@ import { ProductService } from '../services/product.service';
   styleUrl: './addproduct.component.css',
 })
 export class AddproductComponent {
-  mydata: any;
+  myData: any;
 
   constructor(private fb: FormBuilder, private productService: ProductService) {
-    this.mydata = fb.group({
+    this.myData = fb.group({
       productName: '',
       productDesc: '',
       productPrice: '',
@@ -24,7 +24,7 @@ export class AddproductComponent {
 
   addData() {
     // console.log(this.mydata.value);
-    this.productService.submitData(this.mydata.value).subscribe((res)=>{
+    this.productService.submitData(this.myData.value).subscribe((res)=>{
       console.log(res);
       alert("Data Submitted successfully...");
     })

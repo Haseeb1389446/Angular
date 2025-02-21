@@ -1,9 +1,9 @@
-<h1>Add Product</h1>
+<h1>update Product</h1>
 
-<form [formGroup]="myData" (submit)="addData()">
+<form [formGroup]="myData" (submit)="updateData()">
     <input type="text" formControlName="productName" placeholder="Enter Product Name"> <br><br>
     <input type="text" formControlName="productDesc" placeholder="Enter Product Description"> <br><br>
     <input type="text" formControlName="productPrice" placeholder="Enter Product Price"> <br><br>
     <input type="text" formControlName="productStock" placeholder="Enter Product Stock"> <br><br>
-    <input type="submit">
+    <input type="submit" value="update">
 </form>

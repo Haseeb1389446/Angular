@@ -27,6 +27,7 @@ export class AddproductComponent {
     this.productService.submitData(this.myData.value).subscribe((res)=>{
       console.log(res);
       alert("Data Submitted successfully...");
+      window.location.href = "";
     })
   }
 }

@@ -10,6 +10,10 @@ export class ProductService {
 
   constructor(private http: HttpClient) {};
 
+  getAllData(){
+    return this.http.get(this.url);
+  }
+
   submitData(data:any) {
     return this.http.post(this.url,data);
   }
@@ -20,5 +24,9 @@ export class ProductService {
 
   updateSpecificData(id: any, body: any){
     return this.http.put(`${this.url}/${id}`,body)
+  }
+
+  deleteProduct(id: any) {
+    return this.http.delete(`${this.url}/${id}`);
   }
 }

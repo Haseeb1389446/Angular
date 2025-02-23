@@ -8,13 +8,6 @@
       "productStock": "12"
     },
     {
-      "id": "ccd1",
-      "productName": "Lenovo",
-      "productDesc": "A Laptop",
-      "productPrice": "30000",
-      "productStock": "5"
-    },
-    {
       "id": "2925",
       "productName": "Dell",
       "productDesc": "A Laptop",
@@ -27,6 +20,13 @@
       "productPrice": "150000",
       "productStock": "2",
       "id": "8948"
+    },
+    {
+      "id": "d438",
+      "productName": "Lenovo",
+      "productDesc": "A Laptop",
+      "productPrice": "50000",
+      "productStock": "7"
     }
   ]
 }

@@ -1,0 +1,26 @@
+<h1>Show Products</h1>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>DESCRIPTION</th>
+            <th>PRICE</th>
+            <th>STOCK</th>
+            <th>ACTION</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (item of productsCollection; track $index) {
+            <tr>
+                <td>{{item.id}}</td>
+                <td>{{item.productName}}</td>
+                <td>{{item.productDesc}}</td>
+                <td>{{item.productPrice}}</td>
+                <td>{{item.productStock}}</td>
+                <td><a routerLink="update/{{item.id}}">Update</a> <button (click)="deleteProduct(item.id)">Delete</button></td>
+            </tr>
+        }
+    </tbody>
+</table>
